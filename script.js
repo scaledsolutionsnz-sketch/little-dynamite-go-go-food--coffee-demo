@@ -1,4 +1,4 @@
-// Little Dynamite Go Go Food & Coffee — site interactions
+// Little Dynamite Go Go Food & Coffee - site interactions
 
 // intro overlay
 window.addEventListener('load', function(){
