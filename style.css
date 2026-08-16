@@ -334,7 +334,8 @@ footer .wrap > .foot-social{margin-bottom:26px}
 
 /* ---------- award / press ---------- */
 .about-media .corner.gold{background:var(--gold);color:var(--dark)}
-.press-cite{display:block;margin-top:26px;background:var(--cream);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:var(--radius-sm);padding:18px 20px;text-decoration:none;transition:transform .2s ease,box-shadow .2s ease}
+.press-cite{display:block;margin-top:26px;background:var(--cream);border:1px solid rgba(233,162,59,.45);border-radius:var(--radius-sm);padding:18px 20px;text-decoration:none;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.press-cite:hover{border-color:var(--gold)}
 .press-cite:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
 .press-src{display:flex;align-items:center;gap:8px;font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
 .press-head{display:block;font-family:'Bricolage Grotesque',Georgia,serif;font-weight:600;font-size:1.08rem;color:var(--ink);line-height:1.35}
